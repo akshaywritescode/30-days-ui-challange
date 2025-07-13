@@ -3,7 +3,6 @@ import ButtonLeft from "./components/ButtonLeft";
 import ButtonRight from "./components/ButtonRight";
 import AboutFreelancer from "./components/AboutFreelancer";
 import Availibility from "./components/Availibility";
-import WhiteCircle from "./components/WhiteCircle";
 
 export default function FreelancerCard() {
     return <div className="w-screen h-screen bg-green-50 flex justify-center items-center">
@@ -22,8 +21,6 @@ export default function FreelancerCard() {
                 }}
                 className="w-[400px] flex flex-col gap-6 bg-[#0A0A0A] absolute z-10 bottom-11 rounded-3xl p-5"
             >
-
-                {/* <WhiteCircle /> */}
                 <div>
                     <Availibility />
                 </div>
