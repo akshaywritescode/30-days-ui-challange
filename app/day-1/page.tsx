@@ -63,7 +63,7 @@ export default function Page1() {
   };
 
   return (
-    <main className="w-screen h-screen flex justify-center items-center bg-black">
+    <main className="w-screen h-screen flex justify-center items-center bg-white">
       <div className="w-[550px] h-[320px] rounded-2xl overflow-hidden relative">
         {/* Progress bars */}
         <div className="absolute top-3 left-1/2 -translate-x-1/2 flex gap-1 z-20">
